@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Courier New", Courier, monospace;
+}
+body {
+    text-align: center;
+    padding-top: 40px;
+    background-image: url(https://cdn.home.vn/655360_70849780956179_3023699926056960?wt=b81329fa3751eda4227b3c3fac89fa9d&rt=90edc2b3110bd8159a9d3c06997fb0f1);
+}
+.hello {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 0px 0px 10px #4d5deb;
+}
+.modal {
+    margin-top: 100px;
+}
+
+.modal button {
+    padding: 20px;
+    font-size: 30px;
+    width: 200px;
+    height: 70px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+.modal button:hover {
+    background-color: rgb(221, 117, 178);
+}
